@@ -1,12 +1,15 @@
 from random import choice
-def mayusculas(cantidad):
-    """_summary_
+def mayusculas(cantidad:int) -> str:
+    """
+    Función que genera un string con letras mayúsculas al azar 
+    
+    ----Argumentos----:
+    
+        cantidad (int): La cantidad de caracteres que queramos que tenga el string
 
-    Args:
-        cantidad (_type_): _description_
-
-    Returns:
-        _type_: _description_
+    ----Return----:
+    
+        str : Devuelve el string con los caracteres pasados como argumentos de la función
     """
     caracteres = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','X','Y','Z']
     acomulador = ''

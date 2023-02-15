@@ -1,9 +1,15 @@
 from random import choice
-def dígitos(cantidad):
-    """_summary_
+def dígitos(cantidad:int) -> str:
+    """
+    Función que se encarga de generar un string con números al azar (0 - 9)
 
-    Returns:
-        _type_: _description_
+    ----Argumentos----:
+    
+        cantidad (int): La cantidad de caracteres que queramos que tenga el string
+
+    ----Return----:
+    
+        str : Devuelve el string con los caracteres pasados como argumentos de la función
     """
     caracteres = ['1','2','3','4','5','6','7','8','9','0']
     acomulador = ''
