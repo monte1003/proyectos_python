@@ -1,11 +1,11 @@
-import os
-from create import agregar
-from eliminar import eliminar_usuario
-from actualizar import actualizar_usuario
-from visualizar import visualizar_usuarios
-from visualizar_2 import visualizar_total
-usuarios = {}   
-if __name__ == '__main__':
+def principal():
+    import os
+    from create import agregar
+    from eliminar import eliminar_usuario
+    from actualizar import actualizar_usuario
+    from visualizar import visualizar_usuarios
+    from visualizar_2 import visualizar_total
+    usuarios = {}   
     while True:
         menu = """
         \t\t\t\t\t\t\t\t                    Biblioteca Karl Parris.J:

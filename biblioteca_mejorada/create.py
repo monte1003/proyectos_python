@@ -20,7 +20,7 @@ def agregar(
     cantidad = int(input(f'Libros prestados del usuario {nombre}: '))
     for i in range(cantidad):
         e:str = str(input(f'\nNombre del libro número {i+1} prestado por el Usuario {nombre}: '))
-        date:str = str(input(f'Ingresa la fecha donde el usuario {nombre} presto el libro "{e}": '))
+        date:str = str(input(f'Ingresa la fecha donde el usuario {nombre} presto el libro "{e}" separando con / en formato (dia/mes/año): '))
         dia,mes,año = date.split('/')
         diccionario_interno = {
             "libro":e,
